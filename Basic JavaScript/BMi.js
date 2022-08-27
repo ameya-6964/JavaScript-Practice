@@ -1,3 +1,4 @@
+//Copy This Code And Open Browser Press F12 to Opwn Console And Paste This Code To see Output//
 var yourWeight = 58;
 var yourHeight = 1.60;
 
