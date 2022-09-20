@@ -1,4 +1,4 @@
-//Copy This Code And Open Browser Press F12 to Opwn Console And Paste This Code To see Output//
+//Copy This Code And Open Browser Press F12 to Open Console And Paste This Code To see Output//
 var myVar = "Hello World!";
 console.log(myVar); //This Will Print Statement
 console.log(MyVar);//Error

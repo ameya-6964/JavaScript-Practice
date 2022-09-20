@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Power Calculator</title>
+    <script>
+      // Function Creation
+      function circuitPower(voltage, current) {
+        let power = voltage * current;
+
+        document.write(
+          " Voltage is " +
+            voltage +
+            " Current is " +
+            current +
+            " and The Circuit Power (Watts) Is : " +
+            power +
+            "<br>" +
+            "<br>"
+        );
+      } // Function end
+
+      circuitPower(10, 20); //Calling circuitPower Function 200
+
+      circuitPower(480, 20);
+    </script>
+
+    <style>
+      * {
+        font-size: 30px;
+        margin-left: 20%;
+        margin-top: 10%;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
