@@ -32,7 +32,7 @@ let b = 20;
  
       let e = 20; // Number
       let f = "20"; //String
-      if(f === e)
+      if(f === e) // === operator Means Equal Value and Equal Type
       {
         console.log("They Are Same");
       }
@@ -41,4 +41,3 @@ let b = 20;
         console.log("E and F are Not Equal");
       } 
 
-      
