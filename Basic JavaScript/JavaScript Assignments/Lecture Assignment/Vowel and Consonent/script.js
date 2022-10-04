@@ -1,6 +1,7 @@
 
 function vowel(){
     var char = document.getElementById("char").value;   // Input From The User
+    var res =  document.getElementById("result").value= "";
     if
     (char === 'a' ||  char === 'e' || char === 'i' || char === 'o' || char === 'u' 
     || char === 'A' || char === 'E' || char === 'I' || char === 'O' || char === 'U')
@@ -15,11 +16,10 @@ function vowel(){
     {
       for(i=0;i<=9;i++)
       {
-        document.write( char + " It is a Consonent");
-        document.write("<br />");
+        document.getElementById('output').innerHTML += "<p style='font-size: 20px;'> " +  (i + 1)  + " : " + alphabet +  " is a Vowel<br>" +  "</p>" ;
       }
-      document.getElementById("result").innerHTML = vowel();
     }
+    res.value= vowel;
   }
   
 

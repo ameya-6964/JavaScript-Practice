@@ -5,35 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Power Calculator</title>
-    <script>
+    <script defer>
       // Function Creation
-      function circuitPower(voltage, current) {
-        let power = voltage * current;
-
-        document.write(
-          " Voltage is " +
-            voltage +
-            " Current is " +
-            current +
-            " and The Circuit Power (Watts) Is : " +
-            power +
-            "<br>" +
-            "<br>"
-        );
-      } // Function end
-
-      circuitPower(10, 20); //Calling circuitPower Function 200
-
-      circuitPower(480, 20);
+      function circuitPower(Vol, cur) {
+        var Vol = document.getElementById("Voltage").value;
+        var cur = document.getElementById("current").value;
+        var pow = Vol * cur;
+        document.getElementById("Result").innerHTML =
+          "The Power Is : " + pow + " Watts (W) ";
+      }
     </script>
 
     <style>
-      * {
-        font-size: 30px;
-        margin-left: 20%;
-        margin-top: 10%;
+      .box {
+        width: 500px;
+        height: 250px;
+        border: 2px solid black;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 35%;
+        top: 20%;
+      }
+
+      .Input {
+        padding: 1rem;
+        font-size: 1rem;
+        font-size: 1.5rem;
+      }
+      button {
+        height: 100px;
+        width: 150px;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: rgb(4, 249, 249);
+      }
+      #Power {
+        font-size: 20rem;
+      }
+      p {
+        font-size: 1.5rem;
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div class="box">
+      <label for="Voltage" class="Input">Voltage</label>
+      <input type="number" id="Voltage" class="Input" />
+
+      <label for="current" class="Input">Current</label>
+      <input type="number" id="current" class="Input" />
+      <div class="Power"></div>
+      <button onclick="circuitPower()">Calculate Power</button>
+      <p id="Result">The Power Is :</p>
+    </div>
+  </body>
 </html>
