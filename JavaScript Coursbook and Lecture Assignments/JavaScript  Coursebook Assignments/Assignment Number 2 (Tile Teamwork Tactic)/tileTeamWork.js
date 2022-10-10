@@ -14,6 +14,13 @@ const possibleBonus= (a,b) => {
     return false;
 };
 
-possibleBonus(3, 7) // True
-possibleBonus(1, 9)  // False
-possibleBonus(5, 3)  // False
+possibleBonus(3, 7);// True
+possibleBonus(1, 9);  // False
+possibleBonus(5, 3);  // False
+
+/* 
+* OUTPUT
+* possibleBonus(3, 7); Possibility Of Bonus true
+* possibleBonus(1, 9); Possibility Of Bonus false 
+* possibleBonus(5, 3); Possibility Of Bonus false
+ */
