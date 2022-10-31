@@ -21,6 +21,6 @@ console.log("Hey I am String From Double Quote " + doubleQuote);
 /* Backticks Quotes --> Backticks are “extended functionality” quotes. 
 They allow us to embed variables & expressions into a string by wrapping them in ${...} */
 
-const backtickQuotes=`Hello!! $(2+2)`;
+const backtickQuotes=`Hello!! ,${ 2+2}`;
 
 console.log("Hey I am String From Backtick " + backtickQuotes);
