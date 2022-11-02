@@ -16,6 +16,20 @@ result= a<b;
 
 console.log("Is a < b " +result);
 
+// GREATER THEN EQUAL TP SYMBOL >=
+result= a>=b;
+
+console.log("Is a >= b " +result);
+
+// LESSER THEN EQUAL To SYMBOL <=
+result= a<=b;
+
+console.log("Is a <= b " +result);
+
+
+
+
+
 // EQUAL TO ==
 result= a==b;
 
