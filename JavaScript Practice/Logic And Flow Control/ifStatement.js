@@ -1,5 +1,5 @@
-const age1=28;
-if(age1>=18)
+const age=28;
+if(age>=18)
 {
     console.log("You Are Allowed In The Club");
 }
