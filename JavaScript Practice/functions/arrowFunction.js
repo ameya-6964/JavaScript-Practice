@@ -1,9 +1,8 @@
-// Square Function With Help Of Arrow Functions
+// Square Function With Help Of Arrow Functions 
 
 // 1 Way
-const square = (number) =>
-{
-    return number*number
+const square = (number) => {
+    return number * number
 };
 
 const result = square(10);
@@ -18,10 +17,10 @@ const result1 = square1(10);
 console.log(result1);
 
 
-const sum = (a,b) => {
-    return a+b;
+const sum = (a, b) => {
+    return a + b;
 }
 
-const sumResult = sum(10,20);
+const sumResult = sum(10, 20);
 
 console.log(sumResult);
