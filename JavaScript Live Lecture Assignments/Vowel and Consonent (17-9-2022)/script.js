@@ -15,7 +15,7 @@ function vowel(){
 
     
     }
-    else
+    else if  (char >= 'A' && char <= 'Z' || char >= 'a' && char <= 'z' )
     {
       document.getElementById("output").innerHTML= 
       char +" :" + " Is Consonent " + "\n" 
@@ -23,11 +23,15 @@ function vowel(){
       + char +" :" + " Is Consonent " + "\n"
       + char +" :" + " Is Consonent " + "\n"
       + char +" :" + " Is Consonent " + "\n"+
-      char +" :" + " Is Consonent " + "\n" 
+        char +" :" + " Is Consonent " + "\n" 
         + char +" :" + " Is Consonent " + "\n"
         + char +" :" + " Is Consonent " + "\n"
         + char +" :" + " Is Consonent " + "\n"
         + char +" :" + " Is Consonent " + "\n"
+    }
+    else
+    {
+      document.getElementById("output").innerHTML= char +" :" + " IS INVALID CHARACTER "
     }   
   }
   
