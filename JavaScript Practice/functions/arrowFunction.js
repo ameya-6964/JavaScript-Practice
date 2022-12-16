@@ -1,6 +1,6 @@
-// Square Function With Help Of Arrow Functions 
+//Square Function With Help Of Arrow Functions 
 
-// 1 Way
+// 1 Way  //! With Return Keyword
 const square = (number) => {
     return number * number
 };
@@ -8,7 +8,7 @@ const square = (number) => {
 const result = square(10);
 console.log(result);
 
-// 2 Way
+// 2 Way //! Without Return Keyword because Parameter Is Only number 
 
 const square1 = (number) => number * number;
 
@@ -24,3 +24,12 @@ const sum = (a, b) => {
 const sumResult = sum(10, 20);
 
 console.log(sumResult);
+
+
+const greeting = (UserName) =>{
+    return `Hello ${UserName}`
+}
+
+var temp = greeting("Ameya");
+
+console.log(temp);
