@@ -40,9 +40,9 @@ function add (a, b) {
 
  function test(){
      console.log("testing Test Method") // Will Be Exectued  
-    return true; // Will Be Exectued 
-    console.log("testing Test Method Completed")  // Will Not Be Exectued 
-    return false; // Will Be Exectued 
+     return true; // Will Be Exectued 
+     console.log("testing Test Method Completed")  // Will Not Be Exectued  //! Will Not Be Executed Below True
+     return false; // Will Be Exectued //! Will Not Be Executed Below True
   }
   
   const bool = test()

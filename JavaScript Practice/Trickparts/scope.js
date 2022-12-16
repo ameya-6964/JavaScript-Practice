@@ -26,8 +26,8 @@ someFunction();
 */
 
 
-// Accesing Local Variable Outside Function Is Not Allowed So Following Line Will Give Error
-// console.log(age);
+ //!  Accesing Local Variable Outside Function Is Not Allowed So Following Line Will Give Error
+ //! console.log(age); 
 
 /* OUTPUT
 * Uncaught ReferenceError: age is not defined
