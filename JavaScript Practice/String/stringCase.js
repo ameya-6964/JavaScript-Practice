@@ -3,6 +3,9 @@
 const mixedCase="Hello How Are You???";
 
 const lowerCase= mixedCase.toLowerCase();
+
+//! toLowerCase() => Converts all the alphabetic characters in a string to lowercase.
+
 console.log(lowerCase); 
 
 /*  OUTPUT
@@ -10,6 +13,9 @@ console.log(lowerCase);
  */
 
 const upperCase= mixedCase.toUpperCase();
+
+//! toUpperCase() => Converts all the alphabetic characters in a string to uppercase.
+
 console.log(upperCase); 
 
 /*  OUTPUT
