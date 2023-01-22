@@ -9,3 +9,9 @@ const average3 = average(6, 7, 223);
 console.log(average1);
 console.log(average2);
 console.log(average3);
+
+const getSquare = (number) => number * number; // FUNCTION EXPRESSION
+
+const getSquare1 = getSquare(5);
+
+console.log(getSquare1);
